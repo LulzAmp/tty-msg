@@ -1,6 +1,6 @@
 #!/bin/bash
-echo -e "\e[31m"
-figlet TTY-msg
+echo -e "\e[30;41m"
+figlet -c TTY-msg
 echo -e "\e[0m"
 echo "Send a message to all active TTY Sessions"
 echo ""
