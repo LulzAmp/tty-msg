@@ -3,7 +3,7 @@ echo -e "\e[31m"
 figlet TTY-msg
 echo -e "\e[0m"
 echo "Send a message to all active TTY Sessions"
-echo
+echo ""
 if [[ $# -eq 0 ]]; then 
 	echo "Usage: $0 <message to send within quotation marks>"
 	echo ""
